@@ -90,6 +90,6 @@ Important: Predictions are indicative only. Always consult a local agricultural 
 - `.gitignore` : Specifies intentionally untracked files to ignore
 
 ### Author
-`Mariam Bourchouk – Data Engineering student`
-`Institution:` Department of Computer Engineering – Data Engineering Program
+`Mariam Bourchouk – Data Engineering student`<br>
+`Institution:` Department of Computer Engineering – Data Engineering Program <br>
 `Academic Year:` 2025–2026
