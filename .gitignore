@@ -1,7 +1,38 @@
-.DS_Store
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter
 .ipynb_checkpoints/
-reports/
+*.ipynb
+
+# Data (optional - uncomment if data is large)
+# data/raw/*.csv
+# data/processed/*.csv
+
+# Models (optional - uncomment if models are large)
+# src/models/saved_models/*.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Reports
+docs/
 *.pdf
-*.docx
