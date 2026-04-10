@@ -12,11 +12,7 @@ build/
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
 
-# Data (optional - uncomment if data is large)
-# data/raw/*.csv
-# data/processed/*.csv
 
 # Models (optional - uncomment if models are large)
 # src/models/saved_models/*.pkl
@@ -30,9 +26,6 @@ build/
 .DS_Store
 Thumbs.db
 
-# Streamlit
-.streamlit/
 
-# Reports
-docs/
-*.pdf
+
+
