@@ -1,31 +1,50 @@
+# =========================
 # Python
+# =========================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.Python
-*.so
-*.egg
-*.egg-info/
-dist/
-build/
 
-# Jupyter
+# =========================
+# Environnements virtuels
+# =========================
+venv/
+env/
+.venv/
+
+# =========================
+# Jupyter Notebook
+# =========================
 .ipynb_checkpoints/
 
-
-# Models (optional - uncomment if models are large)
-# src/models/saved_models/*.pkl
-
-# IDE
-.vscode/
-.idea/
-*.swp
-
-# OS
+# =========================
+# OS files
+# =========================
 .DS_Store
 Thumbs.db
 
+# =========================
+# IDE (VS Code, etc.)
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Large / sensitive data (IMPORTANT)
+# =========================
+data/raw/*
+!data/raw/*.csv
+
+# =========================
+# Secrets / config
+# =========================
+.env
 
 
 
